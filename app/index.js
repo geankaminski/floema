@@ -9,7 +9,7 @@ import Transition from 'components/Transition'
 
 import About from 'pages/About'
 import Collections from 'pages/Collections'
-import Details from 'pages/Details'
+// import Details from 'pages/Details'
 import Home from 'pages/Home'
 
 class App {
@@ -219,8 +219,8 @@ class App {
           })
         }
 
-        link.onmouseenter = event => this.onLinkMouseEnter(link)
-        link.onmouseleave = event => this.onLinkMouseLeave(link)
+        // link.onmouseenter = event => this.onLinkMouseEnter(link)
+        // link.onmouseleave = event => this.onLinkMouseLeave(link)
       } else if (isNotEmail && isNotPhone) {
         link.rel = 'noopener'
         link.target = '_blank'

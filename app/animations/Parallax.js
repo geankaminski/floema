@@ -30,7 +30,7 @@ export default class {
   }
 
   onResize () {
-    console.log('onResize')
+    // console.log('onResize')
 
     this.amount = window.innerWidth < BREAKPOINT_TABLET ? 10 : 150
     this.offset = getOffset(this.element)
