@@ -32,6 +32,7 @@
 
 .collections__titles__label {
   @extend %vertical-titles__label;
+  transform: rotate(90deg);
 }
 
 .collections__titles__label__text {
