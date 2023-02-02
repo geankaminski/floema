@@ -1,4 +1,4 @@
-import GSAP from 'gsap'
+// import GSAP from 'gsap'
 
 import Page from 'classes/Page'
 

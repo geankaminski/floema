@@ -223,12 +223,9 @@ export default class {
   onWheel ({ pixelY }) {
     if (!this.isVisible) return
 
-    this.scroll.target += pixelY
+    this.scroll.target -= pixelY
   }
 
-  /**
-   * Changed.
-   */
   onChange (index) {
     this.index = index
 
