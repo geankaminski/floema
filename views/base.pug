@@ -12,9 +12,9 @@ html(class=isDesktop ? "desktop" : isTablet ? "tablet" : isPhone ? "phone" : "" 
 
     meta(name="description" content=meta.data.description)
 
-    link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
-    link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
-    link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
+    link(rel="apple-touch-icon" sizes="180x180" href=meta.data.apple.url)
+    link(rel="icon" type="image/png" sizes="32x32" href=meta.data.favicon32.url)
+    link(rel="icon" type="image/png" sizes="16x16" href=meta.data.favicon16.url)
     link(rel="manifest" href="/site.webmanifest")
     link(rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff3a00")
 
